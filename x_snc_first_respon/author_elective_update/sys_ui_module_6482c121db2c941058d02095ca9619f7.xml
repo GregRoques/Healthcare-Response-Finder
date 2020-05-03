@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Associate Data Lookup Table">e482c121db2c941058d02095ca9619f4</application>
+        <filter/>
+        <name>Associate Data Lookup Tables</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_first_respon.associate_data_lookup_table_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:22:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6482c121db2c941058d02095ca9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Associate Data Lookup Tables</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sys_ui_module_6482c121db2c941058d02095ca9619f7</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:22:28</sys_updated_on>
+        <table>x_snc_first_respon_associate_data_lookup_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>sys_ui_module_6482c121db2c941058d02095ca9619f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Associate Data Lookup Table">e482c121db2c941058d02095ca9619f4</application><filter/><name>Associate Data Lookup Tables</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_first_respon.associate_data_lookup_table_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>Brandon.hernandez</sys_created_by><sys_created_on>2020-05-03 00:22:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6482c121db2c941058d02095ca9619f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Associate Data Lookup Tables</sys_name><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>sys_ui_module_6482c121db2c941058d02095ca9619f7</sys_update_name><sys_updated_by>Brandon.hernandez</sys_updated_by><sys_updated_on>2020-05-03 00:22:28</sys_updated_on><table>x_snc_first_respon_associate_data_lookup_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1438641272</payload_hash>
+        <record_name>Associate Data Lookup Tables</record_name>
+        <reverted_from/>
+        <source>d5df8b45dbec541058d02095ca961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:22:29</sys_created_on>
+        <sys_id>6c82c121db2c941058d02095ca9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d7e9b1af0000001</sys_recorded_at>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:22:29</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a482c121ac2c9410bb195bc97b0ca9f9</update_guid>
+        <update_guid_history>a482c121ac2c9410bb195bc97b0ca9f9:1438641272</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:50:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>911e5c74dbfa4246aae1ece43afe51a1</sys_id>
+        <sys_metadata>6482c121db2c941058d02095ca9619f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Associate Data Lookup Tables</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>sys_ui_module_6482c121db2c941058d02095ca9619f7</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_6482c121db2c941058d02095ca9619f7">6c82c121db2c941058d02095ca9619f9</sys_update_version>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:50:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

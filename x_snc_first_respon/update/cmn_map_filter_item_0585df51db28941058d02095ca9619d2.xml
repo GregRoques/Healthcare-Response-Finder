@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_filter_item">
+    <cmn_map_filter_item action="INSERT_OR_UPDATE">
+        <data_item display_value="Physician/Surgeon Needed">19c31f11db28941058d02095ca96191a</data_item>
+        <data_item_table>sys_user</data_item_table>
+        <data_item_value_field>u_available_to_travel</data_item_value_field>
+        <data_type>data_item</data_type>
+        <default_value_script><![CDATA[//set the default value to answer
+answer = "";]]></default_value_script>
+        <label>Surgeon Available</label>
+        <name>Surgeon Available</name>
+        <script><![CDATA[/**
+* set the answer with the format:
+ {unique_index_of_the_selective_option: {
+    "label": label_string,
+    "val": the_value_of_the_option,
+  },
+  another_unique_index_of_the_selective_option: {
+    "label": label_string,
+    "val": the_value_of_the_option,
+
+  },
+* }
+**/
+answer = {};]]></script>
+        <sys_class_name>cmn_map_filter_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 16:26:51</sys_created_on>
+        <sys_id>0585df51db28941058d02095ca9619d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Surgeon Available</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_filter_item_0585df51db28941058d02095ca9619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:19:41</sys_updated_on>
+        <ui_type>multiple_selection</ui_type>
+    </cmn_map_filter_item>
+</record_update>

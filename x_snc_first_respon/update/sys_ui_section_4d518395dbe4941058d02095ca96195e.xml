@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4d518395dbe4941058d02095ca96195e" sys_domain="global" table="cmn_location" version="3" view="Location_Map">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>54120f95dbe4941058d02095ca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>1</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>d4120f95dbe4941058d02095ca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>2</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>58120f95dbe4941058d02095ca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>d8120f95dbe4941058d02095ca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>4</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>5c120f95dbe4941058d02095ca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>5</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>dc120f95dbe4941058d02095ca9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>50120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>7</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>d0120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>8</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>54120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>9</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>d4120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quantity</element>
+            <position>10</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>58120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_shifts</element>
+            <position>11</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>d8120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_positions_needed</element>
+            <position>12</position>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 15:01:18</sys_created_on>
+            <sys_id>5c120f95dbe4941058d02095ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmn_location" sys_domain="global" view="0d514395dbe4941058d02095ca9619d2">4d518395dbe4941058d02095ca96195e</sys_ui_section>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 15:01:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmn_location</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Brandon.hernandez</sys_created_by>
+            <sys_created_on>2020-05-02 14:58:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d518395dbe4941058d02095ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmn_location</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+            <sys_update_name>sys_ui_section_4d518395dbe4941058d02095ca96195e</sys_update_name>
+            <sys_updated_by>Brandon.hernandez</sys_updated_by>
+            <sys_updated_on>2020-05-02 14:58:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Location Map" name="Location_Map">0d514395dbe4941058d02095ca9619d2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

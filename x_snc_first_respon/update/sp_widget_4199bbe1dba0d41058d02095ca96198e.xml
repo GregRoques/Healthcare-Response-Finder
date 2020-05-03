@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $http, spScUtil, spUtil, nowAttachmentHandler, $rootScope, $sanitize, $window, $sce, i18n, $timeout, $log, spAriaUtil, $document, spModal, $q, spAtf, $location, spSCNavStateManager) {
+    /* widget controller */
+    var c = this;
+	
+	$scope.selectionDisplay = "";
+	$scope.showNeeded = "All";
+	
+	$scope.showNeededToggle = function(item){
+		$scope.showNeeded= $scope.showNeeded != item ? item : "All";
+	}
+	
+	$scope.chooseNeeded = function(){
+		$scope.selectionDisplay = $scope.selectionDisplay != "need" ? "need" : "";
+		$scope.showNeeded = "All";
+	}
+	
+	$scope.chooseAvail = function(){
+			$scope.selectionDisplay = $scope.selectionDisplay != "avail" ? "avail" : "";
+			$scope.showNeeded = "All";
+	}
+
+
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.page{
+	width: 100%;
+  margin-bottom: 128px;
+}
+
+.pageHeader{
+	width: inherit;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subHeader{
+	width: 100%;
+  text-align: center;
+  font-size: 48px !important;
+  font-weight: bold;
+}
+
+.subHeader{
+	width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.pageHeader{
+	width: inherit;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.choiceNav{
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.choice{
+	margin: 32px;
+  width: 150px;
+  text-align:center;
+}
+
+.choiceBox{
+  position: relative;
+ 	width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.choiceBox:hover{
+		transform: scale(.9);
+  	tranisition: .25;
+}
+
+.need{
+	background-color: red;
+}
+
+.imageSize{
+	width: 130px;
+  height: 130px;
+ object-fit: contain;
+ object-position:center;
+}
+
+.available{
+	background-color: blue;
+}
+
+.moreInfo{
+	margin-left: 32px;
+  font-size: 16px;
+}
+
+.positionHeader{
+	margin: 32px 0px 32px 0px;
+  padding: 10px;
+	font-weight: bold;
+  font-style: underline;
+  color: red;
+  font-size: 30px;
+  
+}
+
+.docHeader{
+	margin: 32px 0px 32px 0px;
+  padding: 10px;
+	font-weight: bold;
+  font-style: underline;
+  color: blue;
+  font-size: 30px;
+  
+}
+
+.map{
+	text-align: center;
+  font-size: 18px;
+}
+
+.filterBar{
+  margin-top: 32px;
+	text-align: center;
+  font-size: 16px;
+}
+
+.filterBar b{
+	margin-right: 16px;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>healthcare_responder</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Healthcare Responsder</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	var c = this;
+	
+	// =================================================================== Curr Users Location
+
+		var currUserLoc = new GlideRecord('sys_user');
+		currUserLoc.addQuery('sys_id', gs.getUserID());
+		currUserLoc.query();
+		while (currUserLoc.next()) {
+				currLat = currUserLoc.location.latitude;
+				currLong = currUserLoc.location.longitude;
+		}
+
+	//=========================================================================================
+	
+	// =================================================================== calculate getDistance()
+	
+		function getDistance(lat1, lon1, lat2, lon2) {
+			if ((lat1 == lat2) && (lon1 == lon2)) {
+					return 0;
+			} else {
+					var radlat1 = Math.PI * lat1 / 180;
+					var radlat2 = Math.PI * lat2 / 180;
+					var theta = lon1 - lon2;
+					var radtheta = Math.PI * theta / 180;
+					var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+					if (dist > 1) {
+							dist = 1;
+					}
+					dist = Math.acos(dist);
+					dist = dist * 180 / Math.PI;
+					dist = dist * 60 * 1.1515;
+					dist = dist * 0.8684 * 1.151;
+					return Math.round(dist) + " mi.";
+			}
+		}
+
+	//========================================================================================= Needed
+	
+	data.needPositions = [];
+	
+	data.positionList = ["All"]
+
+var gr = new GlideRecord('cmn_location');
+gr.addNotNullQuery('u_positions_needed');
+gr.addNotNullQuery('u_quantity');
+gr.orderBy('u_positions_available')
+gr.query();
+
+while (gr.next()) {
+
+	if(data.positionList.indexOf(gr.u_positions_needed.getDisplayValue().trim()) == -1){
+		data.positionList.push(gr.u_positions_needed.getDisplayValue().trim())
+	}
+	
+	var myDistance;
+	if(gr.latitude && gr.longitude){
+		myDistance = getDistance(currLat, currLong, gr.latitude, gr.longitude);
+	} else{
+		myDistance = "Can Not Calculate"
+	}
+	data.needPositions.push({
+		name: gr.name.getDisplayValue(),
+		city: gr.city.getDisplayValue(),
+		state: gr.state.getDisplayValue(),
+		pos: gr.u_positions_needed.getDisplayValue().trim(),
+		quantity: gr.u_quantity.getDisplayValue(),
+		distance: myDistance,
+		link: "/sp?id=sc_cat_item&sys_id=e559a4fddb2c941007a762ba139619b4&sysparm_category=ef0aacfddb2c941007a762ba139619a0",
+		shift: gr.shift ? gr.u_shift.getDisplayValue() : "Not Listed"
+	})
+	}
+	
+	//========================================================================================= Available
+
+data.docPositions = [];
+data.docList = ["All"]
+	
+var grDoc = new GlideRecord('sys_user');
+
+grDoc.addQuery('u_available_to_travel', 'yes');
+grDoc.addQuery('u_cleared_for_travel', 'yes');
+grDoc.orderBy('u_medical_licenses')
+grDoc.query();
+while (grDoc.next()) {
+
+	
+	if(data.docList.indexOf(grDoc.u_medical_licenses.getDisplayValue().trim()) == -1){
+		data.docList.push(grDoc.u_medical_licenses.getDisplayValue().trim())
+	}
+	
+	var docDistance;
+	if(grDoc.location.latitude && grDoc.location.longitude){
+		docDistance = getDistance(currLat, currLong, grDoc.location.latitude, grDoc.location.longitude);
+	} else{
+		docDistance = "Can Not Calculate";
+	}
+	
+	data.docPositions.push({
+		name: grDoc.name.getDisplayValue(),
+		pos: grDoc.u_medical_licenses.getDisplayValue().trim(),
+		loc: grDoc.location.city.getDisplayValue() +", " + grDoc.location.state.getDisplayValue(),
+		distance: docDistance,
+		travel: grDoc.u_travel_distance ? grDoc.u_travel_distance.getDisplayValue() : "Not Listed",
+		date: grDoc.u_date_you_are_available ? grDoc.u_date_you_are_available.getDisplayValue() : "Not Listed",
+		duration: grDoc.u_deployment_duration ? grDoc.u_deployment_duration.getDisplayValue() : "Not Listed",
+		shift: grDoc.u_shifts_willing_to_work ? grDoc.u_shifts_willing_to_work.getDisplayValue() : "Not Listed",
+		link: ""
+	})
+	
+}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 13:42:35</sys_created_on>
+        <sys_id>4199bbe1dba0d41058d02095ca96198e</sys_id>
+        <sys_mod_count>245</sys_mod_count>
+        <sys_name>Healthcare Responsder</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sp_widget_4199bbe1dba0d41058d02095ca96198e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:54:17</sys_updated_on>
+        <template><![CDATA[<div class="page">
+
+  <div class="pageHeader">
+    Healthcare Responder
+  </div>
+  
+  <div class="choiceNav">
+    <div class="choice">
+      <div class="choiceBox need" ng-click="chooseNeeded()">
+      	<img class="imageSize" src="medical.png"/>
+      </div>
+      Staff Needed
+    </div>
+    <div class="choice">
+      <div class="choiceBox available" ng-click="chooseAvail()" >
+      <img class="imageSize" src="hand.png">
+      </div>
+      Available
+    </div>
+  </div>
+  
+<!--
+  ===================================================== needed position dropdown
+--> 
+  
+  <div ng-show="selectionDisplay == 'need'">
+    <div style="color:red" class="subHeader">
+      Positions Available
+    </div>
+    <div class="map">
+     	<a href="nav_to.do?uri=%2F$map_page_primary.do%3Fsysparm_sys_id%3D7c83442ddb68941058d02095ca96195d">
+      	View All Available Positions on Google Maps
+      </a>
+    </div>
+              <div class="filterBar">
+          <b>Filter Positions: </b>
+        <select ng-model="value" ng-change="showNeededToggle(value)" >
+          <option ng-repeat="pos in c.data.positionList"  value="{{pos}}">{{pos}}</option>
+         </select>
+    </div>
+
+    
+   <div ng-repeat="item in c.data.needPositions">
+     <div ng-show="showNeeded == 'All' || showNeeded == item.pos">
+        <div class="positionHeader" ng-if="item.pos != c.data.needPositions[$index-1].pos">
+          {{item.pos}}<br/>
+        </div>
+       <div class="moreInfo ">
+        <b>Health Center:</b> {{item.name}}<br/>
+         <b>Location:</b> {{item.city}}, {{item.state}}<br/>
+         <b>Distance From Your Location: </b> {{item.distance}}<br/>
+         <b>{{item.pos}}s Needed: </b>{{item.quantity}}<br/>
+         <b>Shifts Needed: </b>{{item.shift}}<br/>
+         <a href={{item.link}}>
+         		<b>Apply For Position</b>
+         </a>
+       </div>
+         <hr/>
+     </div>
+  </div>
+  </div>
+<!--
+  ===================================================== position available dropdown
+--> 
+  
+  <div ng-show="selectionDisplay == 'avail'">
+ <div style="color:blue" class="subHeader">
+      Positions Available
+    </div>
+    <div class="map">
+     	<a href="/nav_to.do?uri=%2F$map_page_primary.do%3Fsysparm_sys_id%3D9906d41ddb60941058d02095ca9619ce">
+      	View All Available Positions on Google Maps
+      </a>
+    </div>
+
+    
+            <div class="filterBar">
+          <b>Filter Positions: </b>
+        <select ng-model="value" ng-change="showNeededToggle(value)" >
+          <option ng-repeat="pos in c.data.docList"  value="{{pos}}">{{pos}}</option>
+         </select>
+    </div>
+
+    
+   <div ng-repeat="item in c.data.docPositions">
+     <div ng-show="showNeeded == 'All' || showNeeded == item.pos">
+        <div class="docHeader" ng-if="item.pos != c.data.docPositions[$index-1].pos">
+          {{item.pos}}<br/>
+        </div>
+       <div class="moreInfo ">
+        	<b>Name:</b> {{item.name}}<br/>
+         <b>Medical License:</b> {{item.pos}}<br/>
+         <b>Location:</b> {{item.loc}}<br/>
+         <b>Distance From Your Location: </b> {{item.distance}}<br/>
+         <b>Willing to Travel: </b>{{item.travel}}<br/>
+         <b>Date Available: </b>{{item.date}}<br/>
+         <b>Availability Length: </b>{{item.duration}}<br/>
+         <b>Preferred Shifts: </b>{{item.shift}}<br/>
+         <a href={{item.link}}>
+         		<b>Contact Clinician</b>
+         </a>
+       </div>
+         <hr/>
+     </div>
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]]></template>
+    </sp_widget>
+</record_update>

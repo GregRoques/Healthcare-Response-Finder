@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Test ">621581a1db2c941058d02095ca96190d</application>
+        <filter/>
+        <name>Test s</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_first_respon.test_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:33:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e1581a1db2c941058d02095ca96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test s</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sys_ui_module_6e1581a1db2c941058d02095ca96190e</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:33:48</sys_updated_on>
+        <table>x_snc_first_respon_test</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>sys_ui_module_6e1581a1db2c941058d02095ca96190e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Test ">621581a1db2c941058d02095ca96190d</application><filter/><name>Test s</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_first_respon.test_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>Brandon.hernandez</sys_created_by><sys_created_on>2020-05-03 00:33:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6e1581a1db2c941058d02095ca96190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test s</sys_name><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>sys_ui_module_6e1581a1db2c941058d02095ca96190e</sys_update_name><sys_updated_by>Brandon.hernandez</sys_updated_by><sys_updated_on>2020-05-03 00:33:48</sys_updated_on><table>x_snc_first_respon_test</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-835023085</payload_hash>
+        <record_name>Test s</record_name>
+        <reverted_from/>
+        <source>d5df8b45dbec541058d02095ca961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:33:48</sys_created_on>
+        <sys_id>261581a1db2c941058d02095ca961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d7f410580000001</sys_recorded_at>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:33:48</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6e1581a1642c94103e91998f23f3140f</update_guid>
+        <update_guid_history>6e1581a1642c94103e91998f23f3140f:-835023085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:51:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>296d0db4b43f4048b97a7752278e9840</sys_id>
+        <sys_metadata>6e1581a1db2c941058d02095ca96190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test s</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>sys_ui_module_6e1581a1db2c941058d02095ca96190e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_6e1581a1db2c941058d02095ca96190e">261581a1db2c941058d02095ca961910</sys_update_version>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:51:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

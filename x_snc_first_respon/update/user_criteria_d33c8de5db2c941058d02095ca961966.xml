@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Available</name>
+        <role/>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 01:05:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d33c8de5db2c941058d02095ca961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Available</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>user_criteria_d33c8de5db2c941058d02095ca961966</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:05:35</sys_updated_on>
+        <user>68174341dbec541058d02095ca961937,304bafc5dbe8541007a762ba1396196b</user>
+    </user_criteria>
+</record_update>

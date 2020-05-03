@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_filter_data_mapping">
+    <cmn_map_filter_data_mapping action="INSERT_OR_UPDATE">
+        <data_item display_value="Users Filter">77e6105ddb60941058d02095ca96194f</data_item>
+        <field>u_positions_needed</field>
+        <filter_item display_value="User Item">a4a8dc5ddb60941058d02095ca9619a0</filter_item>
+        <map_page display_value="x_snc_first_respon_Staff Available">9906d41ddb60941058d02095ca9619ce</map_page>
+        <sys_class_name>cmn_map_filter_data_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 15:24:30</sys_created_on>
+        <sys_id>35378f59dbe4941058d02095ca961941</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_filter_data_mapping_35378f59dbe4941058d02095ca961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 15:27:01</sys_updated_on>
+        <table>cmn_location</table>
+    </cmn_map_filter_data_mapping>
+</record_update>

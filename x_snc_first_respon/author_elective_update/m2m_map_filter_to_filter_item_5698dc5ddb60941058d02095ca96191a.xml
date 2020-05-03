@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_map_filter_to_filter_item">
+    <m2m_map_filter_to_filter_item action="DELETE">
+        <map_filter display_value="First Responders">9c56981ddb60941058d02095ca96199a</map_filter>
+        <map_filter_item display_value="User Item">a4a8dc5ddb60941058d02095ca9619a0</map_filter_item>
+        <order/>
+        <sys_class_name>m2m_map_filter_to_filter_item</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-02 02:42:19</sys_created_on>
+        <sys_id>5698dc5ddb60941058d02095ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>m2m_map_filter_to_filter_item_5698dc5ddb60941058d02095ca96191a</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:42:19</sys_updated_on>
+    </m2m_map_filter_to_filter_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>m2m_map_filter_to_filter_item_5698dc5ddb60941058d02095ca96191a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_map_filter_to_filter_item"><m2m_map_filter_to_filter_item action="INSERT_OR_UPDATE"><map_filter display_value="First Responders">9c56981ddb60941058d02095ca96199a</map_filter><map_filter_item display_value="User Item">a4a8dc5ddb60941058d02095ca9619a0</map_filter_item><order/><sys_class_name>m2m_map_filter_to_filter_item</sys_class_name><sys_created_by>Brandon.hernandez</sys_created_by><sys_created_on>2020-05-02 02:42:19</sys_created_on><sys_id>5698dc5ddb60941058d02095ca96191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>m2m_map_filter_to_filter_item_5698dc5ddb60941058d02095ca96191a</sys_update_name><sys_updated_by>Brandon.hernandez</sys_updated_by><sys_updated_on>2020-05-02 02:42:19</sys_updated_on></m2m_map_filter_to_filter_item></record_update>]]></payload>
+        <payload_hash>1136704475</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d5df8b45dbec541058d02095ca961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-02 02:42:19</sys_created_on>
+        <sys_id>57e8109ddb60941058d02095ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d3435d7c0000001</sys_recorded_at>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:42:19</sys_updated_on>
+        <type>Map Filter Items</type>
+        <update_guid>9fe8109d4b6094109293acceb206bc56</update_guid>
+        <update_guid_history>9fe8109d4b6094109293acceb206bc56:1136704475</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4ff277d1db68941058d02095ca961981</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 18:35:03</sys_created_on>
+        <sys_db_object display_value="" name="m2m_map_filter_to_filter_item">m2m_map_filter_to_filter_item</sys_db_object>
+        <sys_id>259498fb05a94a6093d84278e1d26819</sys_id>
+        <sys_metadata>5698dc5ddb60941058d02095ca96191a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>m2m_map_filter_to_filter_item_5698dc5ddb60941058d02095ca96191a</sys_update_name>
+        <sys_update_version display_value="m2m_map_filter_to_filter_item_5698dc5ddb60941058d02095ca96191a">57e8109ddb60941058d02095ca961957</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:35:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

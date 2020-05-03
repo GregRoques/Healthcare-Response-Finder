@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Associates Data Lookup Table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Associates Data Lookup Table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">506e3c20db13001058d02095ca9619e6</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:56:01</sys_created_on>
+        <sys_id>b32a05a5db2c941058d02095ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Associates Data Lookup Table</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sys_wizard_answer_b32a05a5db2c941058d02095ca96197d</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:56:01</sys_updated_on>
+        <table/>
+        <target_url>x_snc_first_respon_associates_data_lookup_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>sys_wizard_answer_b32a05a5db2c941058d02095ca96197d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Associates Data Lookup Table</answer><button_label/><dependent_value/><element/><name>Associates Data Lookup Table</name><next_question/><order>100</order><payload_name/><question display_value="Application File" name="Application File">506e3c20db13001058d02095ca9619e6</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>Brandon.hernandez</sys_created_by><sys_created_on>2020-05-03 00:56:01</sys_created_on><sys_id>b32a05a5db2c941058d02095ca96197d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Associates Data Lookup Table</sys_name><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>sys_wizard_answer_b32a05a5db2c941058d02095ca96197d</sys_update_name><sys_updated_by>Brandon.hernandez</sys_updated_by><sys_updated_on>2020-05-03 00:56:01</sys_updated_on><table/><target_url>x_snc_first_respon_associates_data_lookup_table.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1795946015</payload_hash>
+        <record_name>Associates Data Lookup Table</record_name>
+        <reverted_from/>
+        <source>bb2fb302db10101007a762ba139619e5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-04-22 17:08:05</sys_created_on>
+        <sys_id>b27cd1e1db6c941058d02095ca961963</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>171a2dc65080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>727cd1e1576c941017a2dee33d4d0663</update_guid>
+        <update_guid_history>727cd1e1576c941017a2dee33d4d0663:1795946015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 02:15:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4f8ae607a02a4408b57f28f3f9cc6219</sys_id>
+        <sys_metadata>b32a05a5db2c941058d02095ca96197d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Associates Data Lookup Table</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent display_value="Application File">506e3c20db13001058d02095ca9619e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_b32a05a5db2c941058d02095ca96197d</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_b32a05a5db2c941058d02095ca96197d">b27cd1e1db6c941058d02095ca961963</sys_update_version>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:15:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

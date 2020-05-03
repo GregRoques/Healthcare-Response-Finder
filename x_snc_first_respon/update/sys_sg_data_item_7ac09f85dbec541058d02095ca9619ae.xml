@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>First Responder Locator Location</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 21:27:10</sys_created_on>
+        <sys_id>7ac09f85dbec541058d02095ca9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>First Responder Locator Location</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sys_sg_data_item_7ac09f85dbec541058d02095ca9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:27:10</sys_updated_on>
+        <table>cmn_location</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ac09f85dbec541058d02095ca9619ae"/>
+</record_update>

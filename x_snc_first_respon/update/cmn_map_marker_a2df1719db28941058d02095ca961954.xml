@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_marker">
+    <cmn_map_marker action="INSERT_OR_UPDATE">
+        <coordinate_definition display_value="staff">f6614851db60941058d02095ca961902</coordinate_definition>
+        <data_item display_value="Diagnostic Cardiac Sonographer">bc449351db28941058d02095ca9619ee</data_item>
+        <name>Cardiac Sonographer</name>
+        <sys_class_name>cmn_map_marker</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 17:11:57</sys_created_on>
+        <sys_id>a2df1719db28941058d02095ca961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cardiac Sonographer</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_marker_a2df1719db28941058d02095ca961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 17:11:57</sys_updated_on>
+    </cmn_map_marker>
+</record_update>

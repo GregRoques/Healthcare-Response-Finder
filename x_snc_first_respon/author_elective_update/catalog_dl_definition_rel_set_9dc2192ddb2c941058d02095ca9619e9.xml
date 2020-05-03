@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_set">
+    <catalog_dl_definition_rel_set action="DELETE">
+        <always_replace>true</always_replace>
+        <applies_to>item</applies_to>
+        <catalog_item display_value="Applying For Remote Assignment ">d4963c29dbe8941058d02095ca9619d1</catalog_item>
+        <dl_definition display_value="Associate Data Lookup">ab6a09a5db2c941058d02095ca96191d</dl_definition>
+        <matcher_table>x_snc_first_respon_associates_data_lookup_table</matcher_table>
+        <matcher_table_field>deployment_duration</matcher_table_field>
+        <source_catalog_variable>IO:873af4e9dbe8941058d02095ca961914</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>deployment_duration</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_set</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 01:33:43</sys_created_on>
+        <sys_id>9dc2192ddb2c941058d02095ca9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_set_9dc2192ddb2c941058d02095ca9619e9</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:33:43</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>catalog_dl_definition_rel_set_9dc2192ddb2c941058d02095ca9619e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_set"><catalog_dl_definition_rel_set action="INSERT_OR_UPDATE"><always_replace>true</always_replace><applies_to>item</applies_to><catalog_item display_value="Applying For Remote Assignment ">d4963c29dbe8941058d02095ca9619d1</catalog_item><dl_definition display_value="Associate Data Lookup">ab6a09a5db2c941058d02095ca96191d</dl_definition><matcher_table>x_snc_first_respon_associates_data_lookup_table</matcher_table><matcher_table_field>deployment_duration</matcher_table_field><source_catalog_variable>IO:873af4e9dbe8941058d02095ca961914</source_catalog_variable><source_table/><source_table_field/><source_variable>deployment_duration</source_variable><sys_class_name>catalog_dl_definition_rel_set</sys_class_name><sys_created_by>Brandon.hernandez</sys_created_by><sys_created_on>2020-05-03 01:33:43</sys_created_on><sys_id>9dc2192ddb2c941058d02095ca9619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>catalog_dl_definition_rel_set_9dc2192ddb2c941058d02095ca9619e9</sys_update_name><sys_updated_by>Brandon.hernandez</sys_updated_by><sys_updated_on>2020-05-03 01:33:43</sys_updated_on><variable_set/></catalog_dl_definition_rel_set></record_update>]]></payload>
+        <payload_hash>-57145602</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d5df8b45dbec541058d02095ca961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 01:33:43</sys_created_on>
+        <sys_id>88d2992ddb2c941058d02095ca961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d82aeb6e0000001</sys_recorded_at>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:33:43</sys_updated_on>
+        <type>Catalog Setter Variable Definitions</type>
+        <update_guid>c0d2992d8a2c9410647df7d6d58d5233</update_guid>
+        <update_guid_history>c0d2992d8a2c9410647df7d6d58d5233:-57145602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">85ea11a1db6c941058d02095ca96199e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 02:09:00</sys_created_on>
+        <sys_db_object display_value="" name="catalog_dl_definition_rel_set">catalog_dl_definition_rel_set</sys_db_object>
+        <sys_id>0bacf03504e1493080ee65a5dc792900</sys_id>
+        <sys_metadata>9dc2192ddb2c941058d02095ca9619e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>catalog_dl_definition_rel_set_9dc2192ddb2c941058d02095ca9619e9</sys_update_name>
+        <sys_update_version display_value="catalog_dl_definition_rel_set_9dc2192ddb2c941058d02095ca9619e9">88d2992ddb2c941058d02095ca961933</sys_update_version>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 02:09:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

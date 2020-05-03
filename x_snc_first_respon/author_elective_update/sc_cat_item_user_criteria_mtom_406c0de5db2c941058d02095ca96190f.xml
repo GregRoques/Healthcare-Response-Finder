@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Applying For Remote Assignment ">d4963c29dbe8941058d02095ca9619d1</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 01:05:35</sys_created_on>
+        <sys_id>406c0de5db2c941058d02095ca96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Applying For Remote Assignment .Available</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_406c0de5db2c941058d02095ca96190f</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:05:35</sys_updated_on>
+        <user_criteria display_value="Available">d33c8de5db2c941058d02095ca961966</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_406c0de5db2c941058d02095ca96190f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Applying For Remote Assignment ">d4963c29dbe8941058d02095ca9619d1</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>Brandon.hernandez</sys_created_by><sys_created_on>2020-05-03 01:05:35</sys_created_on><sys_id>406c0de5db2c941058d02095ca96190f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Applying For Remote Assignment .Available</sys_name><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_406c0de5db2c941058d02095ca96190f</sys_update_name><sys_updated_by>Brandon.hernandez</sys_updated_by><sys_updated_on>2020-05-03 01:05:35</sys_updated_on><user_criteria display_value="Available">d33c8de5db2c941058d02095ca961966</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>2091268162</payload_hash>
+        <record_name>Applying For Remote Assignment .Available</record_name>
+        <reverted_from/>
+        <source>d5df8b45dbec541058d02095ca961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 01:05:35</sys_created_on>
+        <sys_id>cc6ccde5db2c941058d02095ca961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d81129e90000001</sys_recorded_at>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:05:35</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>086ccde57c2c9410123ae5ef8b002752</update_guid>
+        <update_guid_history>086ccde57c2c9410123ae5ef8b002752:2091268162</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Applying For Remote Assignment .Available">1657d9eddb2c941058d02095ca9619f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 01:53:32</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>50fce047b8fe40afb4cb2a4c1ae3b1e9</sys_id>
+        <sys_metadata>406c0de5db2c941058d02095ca96190f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Applying For Remote Assignment .Available</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent display_value="Applying For Remote Assignment (Don't Use)">d4963c29dbe8941058d02095ca9619d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_406c0de5db2c941058d02095ca96190f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_406c0de5db2c941058d02095ca96190f">cc6ccde5db2c941058d02095ca961952</sys_update_version>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 01:53:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

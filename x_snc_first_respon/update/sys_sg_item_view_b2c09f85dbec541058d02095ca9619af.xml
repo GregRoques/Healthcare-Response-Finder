@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="First Responder Locator Location">7ac09f85dbec541058d02095ca9619ae</data_item>
+        <dependency_fields>city,company,contact,country,fax_phone,full_name</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"Font":{"Weight":"semibold","Size":13},"BackgroundColor":"#f1f1f1","TextColor":"#293e40","Width":100,"Height":21,"Text":"","CornerRadius":2,"CellId":"city","TextAlignment":"Center","MaxLines":1,"studio_template_field_id":"E1","Type":"Text"}],"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"Font":{"Weight":"regular","Size":13},"TextColor":"#7d8a8c","Text":"","CellId":"company","TextAlignment":"Right","MaxLines":1,"studio_template_field_id":"E2","Type":"Text"}],"Orientation":"Vertical","Alignment":"Right","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Type":"ViewGroup"},{"Font":{"Weight":"regular","Size":18},"TextColor":"#293e40","Text":"","CellId":"contact","TextAlignment":"Left","MaxLines":2,"studio_template_field_id":"E3","Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"Font":{"Weight":"regular","Size":13},"TextColor":"#7d8a8c","studio_template_is_label":true,"Text":"${country}","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Margin":{"Right":8},"Type":"Text"},{"Width":22,"Height":22,"CornerRadius":11,"CellId":"fax_phone","Scaling":"Fill","studio_template_field_id":"E5","Margin":{"Right":6},"Type":"Image"},{"Font":{"Weight":"regular","Size":13},"TextColor":"#293e40","Text":"","CellId":"country","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E4","Type":"Text"}],"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"Font":{"Weight":"regular","Size":13},"TextColor":"#7d8a8c","studio_template_is_label":true,"Text":"${full_name}","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Margin":{"Right":8},"Type":"Text"},{"Font":{"Weight":"regular","Size":13},"TextColor":"#293e40","Text":"","CellId":"full_name","TextAlignment":"Left","MaxLines":1,"studio_template_field_id":"E6","Type":"Text"}],"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Margin":{"Top":7},"Type":"ViewGroup"}],"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Type":"ViewGroup"}],"Orientation":"Vertical","Alignment":"Stretch","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Distribution":"Auto","Margin":{"Top":17,"Bottom":15},"Type":"ViewGroup"}</item_view_json>
+        <name>Location List Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-01 21:27:10</sys_created_on>
+        <sys_id>b2c09f85dbec541058d02095ca9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location List Screen Item View</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>sys_sg_item_view_b2c09f85dbec541058d02095ca9619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-01 21:27:10</sys_updated_on>
+        <table>cmn_location</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2c09f85dbec541058d02095ca9619af"/>
+</record_update>

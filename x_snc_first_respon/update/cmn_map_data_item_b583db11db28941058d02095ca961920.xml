@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_data_item">
+    <cmn_map_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <conditions table="sys_user">u_available_to_travel=yes^u_cleared_for_travel=yes^u_medical_licenses=Physician^EQ<item display_value="Yes" endquery="false" field="u_available_to_travel" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item display_value="Yes" endquery="false" field="u_cleared_for_travel" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item display_value="Physician" endquery="false" field="u_medical_licenses" goto="false" newquery="false" operator="=" or="false" value="Physician"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <name>Physician Needed</name>
+        <query_condition_script><![CDATA[answer = (function(input) {
+	return "";
+})(input);]]></query_condition_script>
+        <sys_class_name>cmn_map_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 16:18:27</sys_created_on>
+        <sys_id>b583db11db28941058d02095ca961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Physician Needed</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_data_item_b583db11db28941058d02095ca961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 16:18:27</sys_updated_on>
+        <table>sys_user</table>
+    </cmn_map_data_item>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>US</center_address>
+        <center_latitude>37.09024</center_latitude>
+        <center_longitude>-95.712891</center_longitude>
+        <controls_size>large</controls_size>
+        <filter/>
+        <initial_zoom>3</initial_zoom>
+        <name>x_snc_first_respon_Staff Needed</name>
+        <overview>true</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <script><![CDATA[function distance(lat1, lon1, lat2, lon2) {
+    if ((lat1 == lat2) && (lon1 == lon2)) {
+        return 0;
+    } else {
+        var radlat1 = Math.PI * lat1 / 180;
+        var radlat2 = Math.PI * lat2 / 180;
+        var theta = lon1 - lon2;
+        var radtheta = Math.PI * theta / 180;
+        var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+        if (dist > 1) {
+            dist = 1;
+        }
+        dist = Math.acos(dist);
+        dist = dist * 180 / Math.PI;
+        dist = dist * 60 * 1.1515;
+        dist = dist * 0.8684 * 1.151;
+        return Math.round(dist) + " mi.";
+    }
+}
+
+var currLat;
+var currLong;
+
+var currUserLoc = new GlideRecord('sys_user');
+currUserLoc.addQuery('sys_id', gs.getUserID());
+currUserLoc.query();
+while (currUserLoc.next()) {
+    currLat = currUserLoc.location.latitude;
+    currLong = currUserLoc.location.longitude;
+}
+
+
+
+
+
+var gr = new GlideRecord('cmn_location');
+gr.addNotNullQuery('u_positions_needed');
+gr.addNotNullQuery('u_quantity');
+	//gr.addQuery('u_positions_needed', 'Physician') // only returns one when query is not a Not Null
+	//gr.orderByDesc('name') 
+	//gr.orderBy('name') // tried these to see if order was an issue...still only pulls first one in the order
+gr.query();
+
+while (gr.next()) {
+
+    //console.log(gr.getRowCount()) //this is 9, which is correct
+    if (gr.latitude && gr.longitude) {
+		
+        var item = map.addItem(gr);
+        item.latitude = String(gr.latitude);
+        item.longitude = String(gr.longitude);
+
+        item.html = gr.name;
+        item.html += "<br/>" + gr.u_positions_needed.getDisplayValue() + " x " + gr.u_quantity;
+        if (gr.u_shifts) {
+            item.html += "<br/>Shifts: " + gr.u_shifts.getDisplayValue();
+        }
+        item.html += "<br/>Distance: " + distance(currLat, currLong, gr.latitude, gr.longitude);
+		item.html += '<br/><br/><a href="/sp?id=sc_cat_item&sys_id=e559a4fddb2c941007a762ba139619b4&sysparm_category=ef0aacfddb2c941007a762ba139619a0">Apply for this position</a>';
+
+
+        //link to the icon image
+        item.icon = "hospital.png";
+        item.marker_label = gr.u_positions_needed.getDisplayValue();
+
+        item.icon_width = "32";
+        item.icon_height = "32";
+    }
+
+}]]></script>
+        <show_device_location>false</show_device_location>
+        <suffix>Staff Needed</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-02 19:47:45</sys_created_on>
+        <sys_id>7c83442ddb68941058d02095ca96195d</sys_id>
+        <sys_mod_count>107</sys_mod_count>
+        <sys_name>x_snc_first_respon_Staff Needed</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_page_7c83442ddb68941058d02095ca96195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 20:15:18</sys_updated_on>
+        <type>terrain</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>

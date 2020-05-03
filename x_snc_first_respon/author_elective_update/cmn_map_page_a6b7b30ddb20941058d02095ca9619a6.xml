@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="DELETE">
+        <center_address>Yogododji, Africa</center_address>
+        <center_latitude>14.883333</center_latitude>
+        <center_longitude>-1.766667</center_longitude>
+        <controls_size>large</controls_size>
+        <filter/>
+        <initial_zoom>2</initial_zoom>
+        <name>x_snc_first_respon_p</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <script/>
+        <show_device_location>true</show_device_location>
+        <suffix>p</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 00:40:37</sys_created_on>
+        <sys_id>a6b7b30ddb20941058d02095ca9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_first_respon_p</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_page_a6b7b30ddb20941058d02095ca9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 00:40:37</sys_updated_on>
+        <type>normal</type>
+        <type_selection>menu</type_selection>
+        <use_advanced_configuration>true</use_advanced_configuration>
+    </cmn_map_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</application>
+        <file_path/>
+        <instance_id>095376a56f4cd640f51e7b2f5d3ee443</instance_id>
+        <instance_name>hackathon116</instance_name>
+        <name>cmn_map_page_a6b7b30ddb20941058d02095ca9619a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page"><cmn_map_page action="INSERT_OR_UPDATE"><center_address>Yogododji, Africa</center_address><center_latitude>14.883333</center_latitude><center_longitude>-1.766667</center_longitude><controls_size>large</controls_size><filter/><initial_zoom>2</initial_zoom><name>x_snc_first_respon_p</name><overview>false</overview><refresh_on_zoom>false</refresh_on_zoom><script/><show_device_location>true</show_device_location><suffix>p</suffix><sys_class_name>cmn_map_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 00:40:37</sys_created_on><sys_id>a6b7b30ddb20941058d02095ca9619a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_first_respon_p</sys_name><sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package><sys_policy/><sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope><sys_update_name>cmn_map_page_a6b7b30ddb20941058d02095ca9619a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 00:40:37</sys_updated_on><type>normal</type><type_selection>menu</type_selection><use_advanced_configuration>true</use_advanced_configuration></cmn_map_page></record_update>]]></payload>
+        <payload_hash>-1169654094</payload_hash>
+        <record_name>x_snc_first_respon_p</record_name>
+        <reverted_from/>
+        <source>d5df8b45dbec541058d02095ca961924</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 00:40:38</sys_created_on>
+        <sys_id>b41d778ddb20941058d02095ca961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d2d3f5790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 00:40:38</sys_updated_on>
+        <type>Map Page</type>
+        <update_guid>fc1d778def209410265d6666757ae720</update_guid>
+        <update_guid_history>fc1d778def209410265d6666757ae720:-1169654094</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_first_respon_p">2e4dff8ddb20941058d02095ca961955</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 00:41:34</sys_created_on>
+        <sys_db_object display_value="" name="cmn_map_page">cmn_map_page</sys_db_object>
+        <sys_id>1c654d5a113c45a0838def8c8544b900</sys_id>
+        <sys_metadata>a6b7b30ddb20941058d02095ca9619a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_first_respon_p</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_scope_delete display_value="">d798e2814a3448679a18a6bb4eabd319</sys_scope_delete>
+        <sys_update_name>cmn_map_page_a6b7b30ddb20941058d02095ca9619a6</sys_update_name>
+        <sys_update_version display_value="cmn_map_page_a6b7b30ddb20941058d02095ca9619a6">b41d778ddb20941058d02095ca961921</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 00:41:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

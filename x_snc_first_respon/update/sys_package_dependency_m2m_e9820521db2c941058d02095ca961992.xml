@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">1e4668e8db17001058d02095ca9619cd</dependency>
+        <min_version>1.0.6</min_version>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-03 00:22:32</sys_created_on>
+        <sys_id>e9820521db2c941058d02095ca961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-03 00:22:32</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

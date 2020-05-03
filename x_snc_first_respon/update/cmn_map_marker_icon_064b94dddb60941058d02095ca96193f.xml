@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_marker_icon">
+    <cmn_map_marker_icon action="INSERT_OR_UPDATE">
+        <co_located_icon_url>https://trophylist.com/wp-content/uploads/2016/12/red-circle.png</co_located_icon_url>
+        <level/>
+        <name>User Icon</name>
+        <scripted_condition><![CDATA[(function(current) {
+   return true;
+})(current);]]></scripted_condition>
+        <single_icon_url>https://trophylist.com/wp-content/uploads/2016/12/red-circle.png</single_icon_url>
+        <sys_class_name>cmn_map_marker_icon</sys_class_name>
+        <sys_created_by>Brandon.hernandez</sys_created_by>
+        <sys_created_on>2020-05-02 02:53:08</sys_created_on>
+        <sys_id>064b94dddb60941058d02095ca96193f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>User Icon</sys_name>
+        <sys_package display_value="First Responder Locator" source="x_snc_first_respon">55df8b45dbec541058d02095ca961922</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First Responder Locator">55df8b45dbec541058d02095ca961922</sys_scope>
+        <sys_update_name>cmn_map_marker_icon_064b94dddb60941058d02095ca96193f</sys_update_name>
+        <sys_updated_by>Brandon.hernandez</sys_updated_by>
+        <sys_updated_on>2020-05-02 15:51:51</sys_updated_on>
+    </cmn_map_marker_icon>
+</record_update>
