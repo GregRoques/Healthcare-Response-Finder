@@ -11,7 +11,7 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">0901d031dbe0d41058d02095ca9619b4</sp_column>
-        <sp_widget display_value="Healthcare Responsder">4199bbe1dba0d41058d02095ca96198e</sp_widget>
+        <sp_widget display_value="Medical Response Finder">4199bbe1dba0d41058d02095ca96198e</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 15:24:50</sys_created_on>
